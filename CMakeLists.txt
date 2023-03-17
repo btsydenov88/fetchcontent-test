@@ -9,6 +9,7 @@ include(FetchContent)
 FetchContent_Declare(
         cmake-examples
         GIT_REPOSITORY git@github.com:btsydenov88/testrepo.git
+        GIT_TAG "origin/main"
 )
 
 FetchContent_MakeAvailable(cmake-examples)
